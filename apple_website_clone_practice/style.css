@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+#main {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+#nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    height: 44px;
+    width: 100% ;
+    background-color: rgb(22, 21, 21);
+}
+ 
+i{ color: white;
+    font-size: 18px;
+}
+#nav h4{
+    font-size: 12px;
+    font-weight: 400;
+    color: #86868b;
+}
+#nav i:hover{
+    color: none;
+}
+    
+#nav h4:hover{
+    color: #ffffff;
+}
+#content-ribbon{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+    color: white;
+    background-color:#1D1D1F;
+    width: 100%;
+    height: 52px;
+}
+#content-ribbon a{
+    color: #2997ff;
+    text-decoration: none;
+}
+#content-ribbon a:hover{
+    text-decoration: underline;
+}
+#content-ribbon p{
+ font-size: 14px;
+}
+#center{
+    padding:0;
+    text-align: center;
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    box-sizing: border-box;
+}
+#inner{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 100%;
+    width: 100%;
+    background-image: url(./iPhone-18-Pro-and-iPhone-18-Pro-Max-1456x819.jpg);
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-color: black;
+   
+}
+#center h1{
+   color: white;
+   font-size: 60px;
+   font-weight: 600;
+}
+#center h5{
+    color: white;
+    font-size: 40px;
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   font-weight: 300;
+}
+#links{
+ font-size: 19px;
+ color: white;
+ text-align: center;
+    
+}
+#links button{
+    color: white;
+    background-color: #0066cc;
+    padding: 13px 24px;
+    margin-bottom: 20px;
+    border-radius: 50px;
+    border: none;
+    font-size: 19px;
+    font-weight: bolder;
+}
+#links button:hover {
+      background-color: #0076DF;
+}
+#links button:active{
+      background-color: #006EDB;
+}
